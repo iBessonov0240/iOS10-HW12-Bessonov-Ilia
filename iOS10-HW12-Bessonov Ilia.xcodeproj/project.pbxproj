@@ -13,6 +13,7 @@
 		FAD747A72A3E08DE00EDE392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD747A52A3E08DE00EDE392 /* Main.storyboard */; };
 		FAD747A92A3E08E000EDE392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD747A82A3E08E000EDE392 /* Assets.xcassets */; };
 		FAD747AC2A3E08E000EDE392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD747AA2A3E08E000EDE392 /* LaunchScreen.storyboard */; };
+		FAD747B82A3E0A8D00EDE392 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD747B72A3E0A8D00EDE392 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAD747A82A3E08E000EDE392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD747AB2A3E08E000EDE392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD747AD2A3E08E000EDE392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD747B72A3E0A8D00EDE392 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		FAD7479E2A3E08DE00EDE392 /* iOS10-HW12-Bessonov Ilia */ = {
 			isa = PBXGroup;
 			children = (
-				FAD7479F2A3E08DE00EDE392 /* AppDelegate.swift */,
-				FAD747A12A3E08DE00EDE392 /* SceneDelegate.swift */,
-				FAD747A32A3E08DE00EDE392 /* ViewController.swift */,
-				FAD747A52A3E08DE00EDE392 /* Main.storyboard */,
-				FAD747A82A3E08E000EDE392 /* Assets.xcassets */,
-				FAD747AA2A3E08E000EDE392 /* LaunchScreen.storyboard */,
-				FAD747AD2A3E08E000EDE392 /* Info.plist */,
+				FAD747B62A3E0A4700EDE392 /* Extensions */,
+				FAD747B52A3E0A1300EDE392 /* Resources */,
+				FAD747B42A3E09FC00EDE392 /* App */,
+				FAD747B32A3E09A800EDE392 /* Sources */,
 			);
 			path = "iOS10-HW12-Bessonov Ilia";
+			sourceTree = "<group>";
+		};
+		FAD747B32A3E09A800EDE392 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD747A52A3E08DE00EDE392 /* Main.storyboard */,
+				FAD747AA2A3E08E000EDE392 /* LaunchScreen.storyboard */,
+				FAD747A32A3E08DE00EDE392 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAD747B42A3E09FC00EDE392 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7479F2A3E08DE00EDE392 /* AppDelegate.swift */,
+				FAD747A12A3E08DE00EDE392 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAD747B52A3E0A1300EDE392 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD747A82A3E08E000EDE392 /* Assets.xcassets */,
+				FAD747AD2A3E08E000EDE392 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAD747B62A3E0A4700EDE392 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAD747B72A3E0A8D00EDE392 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +175,7 @@
 			files = (
 				FAD747A42A3E08DE00EDE392 /* ViewController.swift in Sources */,
 				FAD747A02A3E08DE00EDE392 /* AppDelegate.swift in Sources */,
+				FAD747B82A3E0A8D00EDE392 /* UIView+Extensions.swift in Sources */,
 				FAD747A22A3E08DE00EDE392 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5C9S7JT7L3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS10-HW12-Bessonov Ilia/Info.plist";
+				INFOPLIST_FILE = "iOS10-HW12-Bessonov Ilia/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5C9S7JT7L3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS10-HW12-Bessonov Ilia/Info.plist";
+				INFOPLIST_FILE = "iOS10-HW12-Bessonov Ilia/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
